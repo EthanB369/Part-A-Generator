@@ -1,0 +1,1386 @@
+[
+  {
+    "id": 5001,
+    "question": "A vessel engaged in dredging or underwater operations, when restricted in her ability to manoeuvre, shall exhibit which lights and shapes?",
+    "type": "mcq",
+    "options": [
+      "Three all-round lights in a vertical line: red-white-red",
+      "Two all-round green lights in a vertical line",
+      "Two red lights and one white light displayed in a triangle",
+      "One green over one white over one green light"
+    ],
+    "answer": "A",
+    "topic": "International Collision Regulations"
+  },
+  {
+    "id": 5002,
+    "question": "What is the minimum number of rocket parachute flares that must be carried in a lifeboat?",
+    "type": "mcq",
+    "options": [
+      "2",
+      "4",
+      "6",
+      "12"
+    ],
+    "answer": "B",
+    "topic": "Emergency Procedures"
+  },
+  {
+    "id": 5003,
+    "question": "Which publication is used to find information on maritime radiocommunications procedures?",
+    "type": "mcq",
+    "options": [
+      "IMDG Code",
+      "International Radio Regulations",
+      "SOLAS",
+      "International Telecommunication Manual"
+    ],
+    "answer": "B",
+    "topic": "Communication"
+  },
+  {
+    "id": 5004,
+    "question": "What does a single green conical buoy indicate in the IALA A system?",
+    "type": "mcq",
+    "options": [
+      "Port side of the channel",
+      "Isolated danger",
+      "Starboard side of the channel",
+      "Safe water"
+    ],
+    "answer": "C",
+    "topic": "IALA Systems of Buoyage"
+  },
+  {
+    "id": 5005,
+    "question": "Which signal is used to indicate distress at sea?",
+    "type": "mcq",
+    "options": [
+      "Morse code 'K'",
+      "Three long blasts on the ship’s whistle",
+      "Raising and lowering arms repeatedly",
+      "Hoisting a black ball over a black cone"
+    ],
+    "answer": "C",
+    "topic": "Emergency Procedures"
+  },
+  {
+    "id": 5006,
+    "question": "What is the required frequency of testing the GMDSS EPIRB?",
+    "type": "mcq",
+    "options": [
+      "Monthly",
+      "Annually",
+      "Weekly",
+      "Daily"
+    ],
+    "answer": "A",
+    "topic": "Communication"
+  },
+  {
+    "id": 5007,
+    "question": "What does the term 'squat' refer to in ship handling?",
+    "type": "mcq",
+    "options": [
+      "A list to one side due to poor loading",
+      "A temporary decrease in trim",
+      "Increase in draft due to forward motion in shallow water",
+      "A surge in engine RPM"
+    ],
+    "answer": "C",
+    "topic": "Ship Handling"
+  },
+  {
+    "id": 5008,
+    "question": "Which day shape indicates a vessel restricted in her ability to manoeuvre?",
+    "type": "mcq",
+    "options": [
+      "Ball-Diamond-Ball",
+      "Cone apex upward",
+      "Cylinder",
+      "Two balls vertically aligned"
+    ],
+    "answer": "A",
+    "topic": "International Collision Regulations"
+  },
+  {
+    "id": 5009,
+    "question": "What is the meaning of two prolonged blasts followed by one short blast on a ship's whistle?",
+    "type": "mcq",
+    "options": [
+      "Altering course to port",
+      "Altering course to starboard",
+      "Operating astern propulsion",
+      "Calling the pilot"
+    ],
+    "answer": "B",
+    "topic": "International Collision Regulations"
+  },
+  {
+    "id": 5010,
+    "question": "What is the main function of the Load Line Convention?",
+    "type": "mcq",
+    "options": [
+      "To regulate onboard medical equipment",
+      "To ensure vessels are not overloaded",
+      "To identify nationality of ships",
+      "To set radio communication standards"
+    ],
+    "answer": "B",
+    "topic": "Seaworthiness"
+  },
+  {
+    "id": 5011,
+    "question": "Which equipment provides ship-to-ship and ship-to-shore digital communication on VHF?",
+    "type": "mcq",
+    "options": [
+      "NAVTEX",
+      "SART",
+      "AIS",
+      "DSC"
+    ],
+    "answer": "D",
+    "topic": "Communication"
+  },
+  {
+    "id": 5012,
+    "question": "What shape is used during the day to indicate a vessel at anchor?",
+    "type": "mcq",
+    "options": [
+      "Diamond",
+      "Ball",
+      "Cone",
+      "Cylinder"
+    ],
+    "answer": "B",
+    "topic": "International Collision Regulations"
+  },
+  {
+    "id": 5013,
+    "question": "Which IMO convention deals specifically with pollution prevention?",
+    "type": "mcq",
+    "options": [
+      "SOLAS",
+      "MARPOL",
+      "ISM Code",
+      "STCW"
+    ],
+    "answer": "B",
+    "topic": "Regulation"
+  },
+  {
+    "id": 5014,
+    "question": "Which system combines radar and chart data for safer navigation?",
+    "type": "mcq",
+    "options": [
+      "ECDIS",
+      "AIS",
+      "GMDSS",
+      "VDR"
+    ],
+    "answer": "A",
+    "topic": "Navigation Equipment"
+  },
+  {
+    "id": 5015,
+    "question": "Which flag indicates that a vessel has a diver down and other vessels should keep clear?",
+    "type": "mcq",
+    "options": [
+      "Flag A (Alpha)",
+      "Flag B (Bravo)",
+      "Flag D (Delta)",
+      "Flag K (Kilo)"
+    ],
+    "answer": "A",
+    "topic": "Communication"
+  },
+  {
+    "id": 5016,
+    "question": "Which MARPOL Annex deals with oil pollution?",
+    "type": "mcq",
+    "options": [
+      "Annex I",
+      "Annex II",
+      "Annex III",
+      "Annex IV"
+    ],
+    "answer": "A",
+    "topic": "Regulation"
+  },
+  {
+    "id": 5017,
+    "question": "What is the purpose of a SART?",
+    "type": "mcq",
+    "options": [
+      "To assist with firefighting",
+      "To activate fire alarms",
+      "To locate survival craft on radar",
+      "To send Morse signals"
+    ],
+    "answer": "C",
+    "topic": "Emergency Procedures"
+  },
+  {
+    "id": 5018,
+    "question": "How is distress indicated using hand-held flares?",
+    "type": "mcq",
+    "options": [
+      "Continuous green light",
+      "Pulsing orange light",
+      "Bright red flame",
+      "White smoke"
+    ],
+    "answer": "C",
+    "topic": "Emergency Procedures"
+  },
+  {
+    "id": 5019,
+    "question": "Which instrument measures wind speed?",
+    "type": "mcq",
+    "options": [
+      "Anemometer",
+      "Barometer",
+      "Gyrocompass",
+      "Sextant"
+    ],
+    "answer": "A",
+    "topic": "Meteorology"
+  },
+  {
+    "id": 5020,
+    "question": "Which part of the ship typically houses the emergency generator?",
+    "type": "mcq",
+    "options": [
+      "Forecastle",
+      "Main engine room",
+      "Accommodation block",
+      "Above the main deck, aft"
+    ],
+    "answer": "D",
+    "topic": "Emergency Procedures"
+  },
+  {
+    "id": 5021,
+    "question": "Which light must be exhibited by a power-driven vessel less than 50m in length underway at night?",
+    "type": "mcq",
+    "options": [
+      "Two masthead lights",
+      "One masthead light, sidelights and sternlight",
+      "Sternlight only",
+      "Sidelights and all-round red light"
+    ],
+    "answer": "B",
+    "topic": "International Collision Regulations"
+  },
+  {
+    "id": 5022,
+    "question": "What is the required range of a sternlight on a vessel less than 50m in length?",
+    "type": "mcq",
+    "options": [
+      "1 nautical mile",
+      "2 nautical miles",
+      "3 nautical miles",
+      "5 nautical miles"
+    ],
+    "answer": "B",
+    "topic": "International Collision Regulations"
+  },
+  {
+    "id": 5023,
+    "question": "What is the function of the ECDIS safety contour?",
+    "type": "mcq",
+    "options": [
+      "Indicates best anchor position",
+      "Marks safe limits of navigation depth",
+      "Shows AIS targets",
+      "Displays the vessel’s course over ground"
+    ],
+    "answer": "B",
+    "topic": "Navigation Equipment"
+  },
+  {
+    "id": 5024,
+    "question": "Which publication provides rules for the carriage of dangerous goods?",
+    "type": "mcq",
+    "options": [
+      "MARPOL",
+      "SOLAS",
+      "IMDG Code",
+      "Load Line Convention"
+    ],
+    "answer": "C",
+    "topic": "Regulation"
+  },
+  {
+    "id": 5025,
+    "question": "What is the meaning of a single yellow cross displayed on a buoy?",
+    "type": "mcq",
+    "options": [
+      "Cardinal mark",
+      "Safe water mark",
+      "Special mark",
+      "Isolated danger mark"
+    ],
+    "answer": "C",
+    "topic": "IALA Systems of Buoyage"
+  },
+  {
+    "id": 5026,
+    "question": "What is the correct helm order for a 10-degree turn to starboard?",
+    "type": "mcq",
+    "options": [
+      "Starboard 10",
+      "Port 10",
+      "10 degrees left",
+      "Hard starboard"
+    ],
+    "answer": "A",
+    "topic": "Ship Handling"
+  },
+  {
+    "id": 5027,
+    "question": "What is the term for the period between two successive high tides?",
+    "type": "mcq",
+    "options": [
+      "Diurnal range",
+      "Spring interval",
+      "Tidal cycle",
+      "Semi-diurnal period"
+    ],
+    "answer": "C",
+    "topic": "Meteorology"
+  },
+  {
+    "id": 5028,
+    "question": "What is the colour of a port-hand lateral mark in the IALA A system?",
+    "type": "mcq",
+    "options": [
+      "Green",
+      "Red",
+      "Yellow",
+      "White"
+    ],
+    "answer": "B",
+    "topic": "IALA Systems of Buoyage"
+  },
+  {
+    "id": 5029,
+    "question": "Which signal indicates a man overboard during the day?",
+    "type": "mcq",
+    "options": [
+      "Continuous sounding of ship's bell",
+      "Raising and lowering arms repeatedly",
+      "Three blasts on the whistle",
+      "Displaying code flag 'B'"
+    ],
+    "answer": "B",
+    "topic": "Emergency Procedures"
+  },
+  {
+    "id": 5030,
+    "question": "Which signal indicates 'I am taking in, or discharging, or carrying dangerous goods'?",
+    "type": "mcq",
+    "options": [
+      "Flag A",
+      "Flag B",
+      "Flag H",
+      "Flag K"
+    ],
+    "answer": "B",
+    "topic": "Communication"
+  },
+  {
+    "id": 5031,
+    "question": "Which of the following vessels is required to show a diamond day shape?",
+    "type": "mcq",
+    "options": [
+      "Vessel at anchor",
+      "Vessel aground",
+      "Vessel towing",
+      "Vessel under sail"
+    ],
+    "answer": "C",
+    "topic": "International Collision Regulations"
+  },
+  {
+    "id": 5032,
+    "question": "What is the purpose of the ISM Code?",
+    "type": "mcq",
+    "options": [
+      "To regulate pollution control",
+      "To enhance the safety of ship operation and prevention of pollution",
+      "To set crew training requirements",
+      "To certify ship stability"
+    ],
+    "answer": "B",
+    "topic": "Regulation"
+  },
+  {
+    "id": 5033,
+    "question": "Which component is used to determine dew point?",
+    "type": "mcq",
+    "options": [
+      "Gyrocompass",
+      "Hygrometer",
+      "Barometer",
+      "Chronometer"
+    ],
+    "answer": "B",
+    "topic": "Meteorology"
+  },
+  {
+    "id": 5034,
+    "question": "What does a flashing yellow light on a buoy signify?",
+    "type": "mcq",
+    "options": [
+      "Safe water",
+      "Special mark",
+      "Port side buoy",
+      "Isolated danger"
+    ],
+    "answer": "B",
+    "topic": "IALA Systems of Buoyage"
+  },
+  {
+    "id": 5035,
+    "question": "Which of these statements best describes spring tides?",
+    "type": "mcq",
+    "options": [
+      "They occur when the moon is closest to Earth",
+      "They result in the smallest tidal range",
+      "They occur during full and new moons",
+      "They happen only in spring"
+    ],
+    "answer": "C",
+    "topic": "Meteorology"
+  },
+  {
+    "id": 5036,
+    "question": "What shape is used to indicate a vessel constrained by her draft?",
+    "type": "mcq",
+    "options": [
+      "Cylinder",
+      "Ball-Diamond-Ball",
+      "Cone",
+      "Diamond"
+    ],
+    "answer": "A",
+    "topic": "International Collision Regulations"
+  },
+  {
+    "id": 5037,
+    "question": "Which of the following best defines a cardinal mark?",
+    "type": "mcq",
+    "options": [
+      "Marks an anchorage area",
+      "Indicates the side to pass safely",
+      "Denotes channel centre",
+      "Used to warn of pipelines"
+    ],
+    "answer": "B",
+    "topic": "IALA Systems of Buoyage"
+  },
+  {
+    "id": 5038,
+    "question": "What is the purpose of the ISPS Code?",
+    "type": "mcq",
+    "options": [
+      "To monitor shipboard emissions",
+      "To prevent pollution from ships",
+      "To detect and assess security threats",
+      "To report voyage progress"
+    ],
+    "answer": "C",
+    "topic": "Security"
+  },
+  {
+    "id": 5039,
+    "question": "Which device displays a distress alert from a liferaft on radar?",
+    "type": "mcq",
+    "options": [
+      "NAVTEX",
+      "SART",
+      "EPIRB",
+      "AIS"
+    ],
+    "answer": "B",
+    "topic": "Emergency Procedures"
+  },
+  {
+    "id": 5040,
+    "question": "Which buoy carries two black balls as its topmark?",
+    "type": "mcq",
+    "options": [
+      "Isolated danger mark",
+      "Safe water mark",
+      "Cardinal mark",
+      "Special mark"
+    ],
+    "answer": "A",
+    "topic": "IALA Systems of Buoyage"
+  },
+  {
+    "id": 5041,
+    "question": "What does a flag 'H' signify?",
+    "type": "mcq",
+    "options": [
+      "I have a pilot on board",
+      "I have dangerous cargo",
+      "I require a pilot",
+      "Man overboard"
+    ],
+    "answer": "C",
+    "topic": "Communication"
+  },
+  {
+    "id": 5042,
+    "question": "What does the acronym VDR stand for?",
+    "type": "mcq",
+    "options": [
+      "Voyage Data Recorder",
+      "Vessel Distance Recorder",
+      "Variable Draft Register",
+      "Vessel Damage Report"
+    ],
+    "answer": "A",
+    "topic": "Navigation Equipment"
+  },
+  {
+    "id": 5043,
+    "question": "How often must lifeboats be launched and manoeuvred under SOLAS?",
+    "type": "mcq",
+    "options": [
+      "Weekly",
+      "Monthly",
+      "Every 3 months",
+      "Every 6 months"
+    ],
+    "answer": "C",
+    "topic": "Safety"
+  },
+  {
+    "id": 5044,
+    "question": "What is the role of the GMDSS?",
+    "type": "mcq",
+    "options": [
+      "Global Maritime Distress and Safety System",
+      "General Maritime Device and Support Scheme",
+      "Global Marine Defence Security Signal",
+      "Geographic Monitoring and Detection Support Service"
+    ],
+    "answer": "A",
+    "topic": "Communication"
+  },
+  {
+    "id": 5045,
+    "question": "What is the purpose of the compass deviation card?",
+    "type": "mcq",
+    "options": [
+      "To correct variation",
+      "To correct compass error due to ship's magnetism",
+      "To measure magnetic field strength",
+      "To calibrate radar"
+    ],
+    "answer": "B",
+    "topic": "Navigation Equipment"
+  },
+  {
+    "id": 5046,
+    "question": "Which shape should be displayed by a vessel aground during daylight?",
+    "type": "mcq",
+    "options": [
+      "One black ball",
+      "Two black balls",
+      "Three black balls",
+      "One cone, apex down"
+    ],
+    "answer": "C",
+    "topic": "International Collision Regulations"
+  },
+  {
+    "id": 5047,
+    "question": "How should radar be used during restricted visibility?",
+    "type": "mcq",
+    "options": [
+      "To monitor the weather",
+      "To assist in determining a safe speed and collision avoidance",
+      "Only to track the position of own ship",
+      "To confirm compass heading"
+    ],
+    "answer": "B",
+    "topic": "Navigational Procedures"
+  },
+  {
+    "id": 5048,
+    "question": "What is the minimum number of rocket parachute flares required in a liferaft?",
+    "type": "mcq",
+    "options": [
+      "2",
+      "4",
+      "6",
+      "8"
+    ],
+    "answer": "B",
+    "topic": "Emergency Procedures"
+  },
+  {
+    "id": 5049,
+    "question": "What is the purpose of the AIS system?",
+    "type": "mcq",
+    "options": [
+      "To detect sound signals",
+      "To measure atmospheric pressure",
+      "To provide vessel information automatically",
+      "To record engine data"
+    ],
+    "answer": "C",
+    "topic": "Navigation Equipment"
+  },
+  {
+    "id": 5050,
+    "question": "Which part of a vessel gives information on load line zones?",
+    "type": "mcq",
+    "options": [
+      "Logbook",
+      "Sailing directions",
+      "Charts",
+      "Load Line Certificate"
+    ],
+    "answer": "D",
+    "topic": "Seaworthiness"
+  },
+  {
+    "id": 5051,
+    "question": "Which IALA buoy indicates an isolated danger?",
+    "type": "mcq",
+    "options": [
+      "Red and white vertical stripes",
+      "Yellow with X topmark",
+      "Black with one red band and two black balls",
+      "Green can-shaped buoy"
+    ],
+    "answer": "C",
+    "topic": "IALA Systems of Buoyage"
+  },
+  {
+    "id": 5052,
+    "question": "What does a vessel display at night when restricted in her ability to manoeuvre?",
+    "type": "mcq",
+    "options": [
+      "Red over white over red lights",
+      "Two white lights",
+      "Green over red",
+      "Red over green"
+    ],
+    "answer": "A",
+    "topic": "International Collision Regulations"
+  },
+  {
+    "id": 5053,
+    "question": "What is the minimum frequency for checking the ship’s steering gear?",
+    "type": "mcq",
+    "options": [
+      "Once a voyage",
+      "Every 12 hours",
+      "Weekly",
+      "Before departure"
+    ],
+    "answer": "D",
+    "topic": "Navigational Procedures"
+  },
+  {
+    "id": 5054,
+    "question": "Which of the following is the correct distress signal?",
+    "type": "mcq",
+    "options": [
+      "Orange smoke",
+      "Green flare",
+      "Sound signal every 3 minutes",
+      "Yellow flashing light"
+    ],
+    "answer": "A",
+    "topic": "Emergency Procedures"
+  },
+  {
+    "id": 5055,
+    "question": "What is the meaning of a single yellow light flashing once every second on a buoy?",
+    "type": "mcq",
+    "options": [
+      "Cardinal East",
+      "Special Mark",
+      "Safe Water Mark",
+      "Isolated Danger Mark"
+    ],
+    "answer": "B",
+    "topic": "IALA Systems of Buoyage"
+  },
+  {
+    "id": 5056,
+    "question": "What is the correct sound signal for a vessel operating astern propulsion in restricted visibility?",
+    "type": "mcq",
+    "options": [
+      "One prolonged blast",
+      "Two prolonged blasts",
+      "Three short blasts",
+      "Two prolonged and three short blasts"
+    ],
+    "answer": "B",
+    "topic": "International Collision Regulations"
+  },
+  {
+    "id": 5057,
+    "question": "Which topmark is used for a North Cardinal Mark?",
+    "type": "mcq",
+    "options": [
+      "Two cones pointing down",
+      "Two cones base-to-base",
+      "Two cones pointing up",
+      "One ball and one cone"
+    ],
+    "answer": "C",
+    "topic": "IALA Systems of Buoyage"
+  },
+  {
+    "id": 5058,
+    "question": "Which publication provides coastal radio station details?",
+    "type": "mcq",
+    "options": [
+      "IMDG Code",
+      "Admiralty List of Radio Signals",
+      "Sailing Directions",
+      "Notices to Mariners"
+    ],
+    "answer": "B",
+    "topic": "Communication"
+  },
+  {
+    "id": 5059,
+    "question": "When is a security drill required under the ISPS Code?",
+    "type": "mcq",
+    "options": [
+      "Every 6 months",
+      "Every 3 months",
+      "Monthly",
+      "Every voyage"
+    ],
+    "answer": "B",
+    "topic": "Security"
+  },
+  {
+    "id": 5060,
+    "question": "What action must be taken on sighting a person overboard?",
+    "type": "mcq",
+    "options": [
+      "Call engine room",
+      "Turn hard port immediately",
+      "Raise alarm and deploy life-saving appliance",
+      "Log the time and position"
+    ],
+    "answer": "C",
+    "topic": "Emergency Procedures"
+  },
+  {
+    "id": 5061,
+    "question": "What shape must a vessel at anchor display during daylight?",
+    "type": "mcq",
+    "options": [
+      "Ball",
+      "Cone",
+      "Cylinder",
+      "Diamond"
+    ],
+    "answer": "A",
+    "topic": "International Collision Regulations"
+  },
+  {
+    "id": 5062,
+    "question": "Which fire extinguisher is best suited for electrical fires?",
+    "type": "mcq",
+    "options": [
+      "Water",
+      "Foam",
+      "CO₂",
+      "Dry powder"
+    ],
+    "answer": "C",
+    "topic": "Emergency Procedures"
+  },
+  {
+    "id": 5063,
+    "question": "Which sound signal indicates that a vessel is altering course to port?",
+    "type": "mcq",
+    "options": [
+      "Two short blasts",
+      "One short blast",
+      "Three short blasts",
+      "One long blast"
+    ],
+    "answer": "A",
+    "topic": "International Collision Regulations"
+  },
+  {
+    "id": 5064,
+    "question": "What does the term 'neap tide' refer to?",
+    "type": "mcq",
+    "options": [
+      "Lowest daily tide",
+      "Highest tidal range",
+      "Small tidal range between high and low water",
+      "Tide during equinox"
+    ],
+    "answer": "C",
+    "topic": "Meteorology"
+  },
+  {
+    "id": 5065,
+    "question": "Which SOLAS chapter covers lifesaving appliances and arrangements?",
+    "type": "mcq",
+    "options": [
+      "Chapter III",
+      "Chapter IV",
+      "Chapter V",
+      "Chapter I"
+    ],
+    "answer": "A",
+    "topic": "Regulation"
+  },
+  {
+    "id": 5066,
+    "question": "What signal does the code flag 'O' (Oscar) represent?",
+    "type": "mcq",
+    "options": [
+      "Man overboard",
+      "I require a pilot",
+      "Dangerous cargo onboard",
+      "Abandon ship"
+    ],
+    "answer": "A",
+    "topic": "Communication"
+  },
+  {
+    "id": 5067,
+    "question": "What is the first action during a fire drill?",
+    "type": "mcq",
+    "options": [
+      "Extinguish the fire",
+      "Check the fire plan",
+      "Sound the alarm and report to muster station",
+      "Activate CO₂ system"
+    ],
+    "answer": "C",
+    "topic": "Safety"
+  },
+  {
+    "id": 5068,
+    "question": "How often should fire drills be conducted on board?",
+    "type": "mcq",
+    "options": [
+      "Weekly",
+      "Monthly",
+      "Every 3 months",
+      "Before each voyage"
+    ],
+    "answer": "B",
+    "topic": "Safety"
+  },
+  {
+    "id": 5069,
+    "question": "Which marking identifies the forward perpendicular?",
+    "type": "mcq",
+    "options": [
+      "Plimsoll line",
+      "FP mark",
+      "Anchor mark",
+      "Bow draft scale"
+    ],
+    "answer": "B",
+    "topic": "Seaworthiness"
+  },
+  {
+    "id": 5070,
+    "question": "Which publication contains information on marine radio signals?",
+    "type": "mcq",
+    "options": [
+      "Sailing Directions",
+      "List of Lights",
+      "Admiralty List of Radio Signals",
+      "Notices to Mariners"
+    ],
+    "answer": "C",
+    "topic": "Communication"
+  },
+  {
+    "id": 5071,
+    "question": "What is the use of a barometer?",
+    "type": "mcq",
+    "options": [
+      "Measure wind direction",
+      "Measure pressure changes for weather forecasting",
+      "Measure humidity",
+      "Record radar ranges"
+    ],
+    "answer": "B",
+    "topic": "Meteorology"
+  },
+  {
+    "id": 5072,
+    "question": "What does the Load Line Convention primarily regulate?",
+    "type": "mcq",
+    "options": [
+      "Minimum safe manning",
+      "Ballast tank inspection",
+      "Freeboard and draft markings",
+      "Port State Control inspections"
+    ],
+    "answer": "C",
+    "topic": "Regulation"
+  },
+  {
+    "id": 5073,
+    "question": "Which side is marked by red buoys in the IALA A system?",
+    "type": "mcq",
+    "options": [
+      "Starboard",
+      "Port",
+      "Mid-channel",
+      "Shallow side"
+    ],
+    "answer": "B",
+    "topic": "IALA Systems of Buoyage"
+  },
+  {
+    "id": 5074,
+    "question": "How is a vessel not under command identified at night?",
+    "type": "mcq",
+    "options": [
+      "Red over red lights",
+      "Green over white lights",
+      "White over green lights",
+      "White over red lights"
+    ],
+    "answer": "A",
+    "topic": "International Collision Regulations"
+  },
+  {
+    "id": 5075,
+    "question": "What should you do if the radar fails in restricted visibility?",
+    "type": "mcq",
+    "options": [
+      "Maintain course and speed",
+      "Use echo sounder instead",
+      "Reduce speed and post extra lookouts",
+      "Change to autopilot"
+    ],
+    "answer": "C",
+    "topic": "Navigational Procedures"
+  },
+  {
+    "id": 5076,
+    "question": "Which system assists in sending an automatic distress signal from liferafts?",
+    "type": "mcq",
+    "options": [
+      "NAVTEX",
+      "AIS",
+      "EPIRB",
+      "SART"
+    ],
+    "answer": "C",
+    "topic": "Emergency Procedures"
+  },
+  {
+    "id": 5077,
+    "question": "What is the use of the Global Maritime Distress and Safety System (GMDSS)?",
+    "type": "mcq",
+    "options": [
+      "To comply with SOLAS training",
+      "To log navigational charts",
+      "To enhance shipboard navigation",
+      "To ensure automatic distress communications"
+    ],
+    "answer": "D",
+    "topic": "Communication"
+  },
+  {
+    "id": 5078,
+    "question": "Which signal is mandatory when approaching a bend in a channel with limited visibility?",
+    "type": "mcq",
+    "options": [
+      "Three short blasts",
+      "Two prolonged blasts",
+      "One prolonged blast",
+      "Five short blasts"
+    ],
+    "answer": "C",
+    "topic": "International Collision Regulations"
+  },
+  {
+    "id": 5079,
+    "question": "How is the speed through water best measured onboard?",
+    "type": "mcq",
+    "options": [
+      "Doppler log",
+      "GPS",
+      "Gyrocompass",
+      "Echo sounder"
+    ],
+    "answer": "A",
+    "topic": "Navigation Equipment"
+  },
+  {
+    "id": 5080,
+    "question": "Which equipment helps determine if you're dragging anchor?",
+    "type": "mcq",
+    "options": [
+      "SART",
+      "Echo sounder",
+      "Radar",
+      "Bearing fixes on fixed objects"
+    ],
+    "answer": "D",
+    "topic": "Navigational Procedures"
+  },
+  {
+    "id": 5081,
+    "question": "What is the effective range of an AIS Class A transponder?",
+    "type": "mcq",
+    "options": [
+      "2 NM",
+      "5 NM",
+      "20 NM",
+      "40 NM"
+    ],
+    "answer": "C",
+    "topic": "Navigation Equipment"
+  },
+  {
+    "id": 5082,
+    "question": "What shape is used during daylight to indicate a vessel constrained by her draft?",
+    "type": "mcq",
+    "options": [
+      "Cone",
+      "Cylinder",
+      "Diamond",
+      "Ball"
+    ],
+    "answer": "B",
+    "topic": "International Collision Regulations"
+  },
+  {
+    "id": 5083,
+    "question": "How often should EPIRBs be tested?",
+    "type": "mcq",
+    "options": [
+      "Every watch",
+      "Every week",
+      "Every month",
+      "Every 3 months"
+    ],
+    "answer": "C",
+    "topic": "Emergency Procedures"
+  },
+  {
+    "id": 5084,
+    "question": "Which regulation governs shipboard emergency drills?",
+    "type": "mcq",
+    "options": [
+      "STCW",
+      "SOLAS Chapter III",
+      "MARPOL",
+      "ISM Code"
+    ],
+    "answer": "B",
+    "topic": "Safety"
+  },
+  {
+    "id": 5085,
+    "question": "Which of these is a control measure for enclosed space entry?",
+    "type": "mcq",
+    "options": [
+      "Turn off ventilation",
+      "No need for PPE",
+      "Use a permit-to-work system",
+      "Let crew enter unsupervised"
+    ],
+    "answer": "C",
+    "topic": "Safety"
+  },
+  {
+    "id": 5086,
+    "question": "Which of the following is used to measure humidity?",
+    "type": "mcq",
+    "options": [
+      "Sextant",
+      "Anemometer",
+      "Hydrometer",
+      "Hygrometer"
+    ],
+    "answer": "D",
+    "topic": "Meteorology"
+  },
+  {
+    "id": 5087,
+    "question": "What signal is given when abandoning ship is ordered?",
+    "type": "mcq",
+    "options": [
+      "One long blast",
+      "General emergency alarm and announcement",
+      "Red flashing lights",
+      "Code flag ‘B’ hoisted"
+    ],
+    "answer": "B",
+    "topic": "Emergency Procedures"
+  },
+  {
+    "id": 5088,
+    "question": "Which flag signifies a pilot is on board?",
+    "type": "mcq",
+    "options": [
+      "Alpha",
+      "Foxtrot",
+      "Hotel",
+      "Echo"
+    ],
+    "answer": "C",
+    "topic": "Communication"
+  },
+  {
+    "id": 5089,
+    "question": "What action should you take in case of oil spill on deck?",
+    "type": "mcq",
+    "options": [
+      "Report immediately and start containment",
+      "Ignore if outside cargo area",
+      "Wait for master’s approval",
+      "Wash with water"
+    ],
+    "answer": "A",
+    "topic": "Regulation"
+  },
+  {
+    "id": 5090,
+    "question": "What is the primary concern during a bulk cargo operation?",
+    "type": "mcq",
+    "options": [
+      "Stowage plan",
+      "Air temperature",
+      "Cargo shifting and liquefaction",
+      "Hull coating"
+    ],
+    "answer": "C",
+    "topic": "Cargo Work"
+  },
+  {
+    "id": 5091,
+    "question": "Which instrument determines depth under the keel?",
+    "type": "mcq",
+    "options": [
+      "Gyro",
+      "Doppler log",
+      "Echo sounder",
+      "Sextant"
+    ],
+    "answer": "C",
+    "topic": "Navigation Equipment"
+  },
+  {
+    "id": 5092,
+    "question": "Which fire class involves flammable gases?",
+    "type": "mcq",
+    "options": [
+      "Class A",
+      "Class B",
+      "Class C",
+      "Class D"
+    ],
+    "answer": "C",
+    "topic": "Emergency Procedures"
+  },
+  {
+    "id": 5093,
+    "question": "Which SOLAS chapter relates to navigation?",
+    "type": "mcq",
+    "options": [
+      "Chapter III",
+      "Chapter V",
+      "Chapter IX",
+      "Chapter I"
+    ],
+    "answer": "B",
+    "topic": "Regulation"
+  },
+  {
+    "id": 5094,
+    "question": "What document confirms cargo has been loaded and is in good condition?",
+    "type": "mcq",
+    "options": [
+      "Load Line Certificate",
+      "Stability booklet",
+      "Bill of Lading",
+      "Port logbook"
+    ],
+    "answer": "C",
+    "topic": "Cargo Work"
+  },
+  {
+    "id": 5095,
+    "question": "What is the basic rule for safe anchor watch?",
+    "type": "mcq",
+    "options": [
+      "Fix position only once",
+      "No lookout needed at night",
+      "Fix position regularly and maintain lookout",
+      "Use GPS only"
+    ],
+    "answer": "C",
+    "topic": "Navigational Procedures"
+  },
+  {
+    "id": 5096,
+    "question": "Which is the correct VHF distress channel?",
+    "type": "mcq",
+    "options": [
+      "Channel 12",
+      "Channel 09",
+      "Channel 16",
+      "Channel 06"
+    ],
+    "answer": "C",
+    "topic": "Communication"
+  },
+  {
+    "id": 5097,
+    "question": "What document outlines ship-specific emergency duties?",
+    "type": "mcq",
+    "options": [
+      "Crew list",
+      "Muster list",
+      "Drill report",
+      "Safety manual"
+    ],
+    "answer": "B",
+    "topic": "Safety"
+  },
+  {
+    "id": 5098,
+    "question": "Which fire class is for cooking oil or fat fires?",
+    "type": "mcq",
+    "options": [
+      "Class A",
+      "Class B",
+      "Class F",
+      "Class C"
+    ],
+    "answer": "C",
+    "topic": "Emergency Procedures"
+  },
+  {
+    "id": 5099,
+    "question": "What does the term ‘freeboard’ refer to?",
+    "type": "mcq",
+    "options": [
+      "Depth of rudder below water",
+      "Height from keel to mast",
+      "Distance from waterline to upper deck edge",
+      "Area of hull under water"
+    ],
+    "answer": "C",
+    "topic": "Seaworthiness"
+  },
+  {
+    "id": 5100,
+    "question": "Which document verifies a ship’s structural integrity and buoyancy?",
+    "type": "mcq",
+    "options": [
+      "Load Line Certificate",
+      "Certificate of Competency",
+      "Cargo Manifest",
+      "International Oil Pollution Certificate"
+    ],
+    "answer": "A",
+    "topic": "Seaworthiness"
+  },
+  {
+    "id": 5101,
+    "question": "Which of the following position fixing methods can be used to obtain an accurate position fix on a coastal passage?",
+    "type": "mcq",
+    "options": [
+      "Radar ranges and bearings of charted objects.",
+      "Contour line on the echo sounder",
+      "Three radar bearings from conspicuous points.",
+      "Two visual bearings of charted objects."
+    ],
+    "answer": ["A", "C"],
+    "topic": "Navigational Procedures",
+    "explanation": "• Radar ranges and bearings of charted objects. This is correct.\n• Contour line on the echo sounder. Comparing echo sounder readings to the contours on the chart is a method of obtaining an approximate position but it will not be an accurate position fix by itself.\n• Three radar bearings from conspicuous points. This is correct.\n• Two visual bearings of charted objects. A minimum of three lines of position are required for an accurate position fix."
+  },
+  {
+    "id": 5102,
+    "question": "The compass course is 011°C, with deviation of 5°E and variation of 3°W. What is the vessel's true course?",
+    "type": "mcq",
+    "options": [
+      "013°T",
+      "019°T",
+      "003°T",
+      "009°T"
+    ],
+    "answer": "A",
+    "topic": "Navigational Procedures",
+    "explanation": "C ADD E T - Compass to True add East\n011°C + 5°E - 3°W = 013°T"
+  },
+  {
+    "id": 5103,
+    "question": "What are the four stages of passage planning?",
+    "type": "mcq",
+    "options": [
+      "Appraisal",
+      "Proceeding",
+      "Exercise",
+      "Monitoring"
+    ],
+    "answer": ["A", "D"],
+    "topic": "Navigational Procedures",
+    "explanation": "The four stages of passage planning according to IMO Res. 893 are:\n- Appraisal\n- Planning\n- Execution\n- Monitoring"
+  },
+  {
+    "id": 5104,
+    "question": "Which of the below will be considered during the appraisal stage of the passage planning process?",
+    "type": "mcq",
+    "options": [
+      "Emergency response checklists.",
+      "A list of embarking and disembarking crew.",
+      "The Master's requirements for vessel routing.",
+      "Charts and publications."
+    ],
+    "answer": ["C", "D"],
+    "topic": "Navigational Procedures",
+    "explanation": "Neither Emergency response checklists nor A list of embarking and disembarking crew are considered as part of the appraisal stage of the passage planning process."
+  },
+  {
+    "id": 5105,
+    "question": "What are the correctable errors of a sextant?",
+    "type": "mcq",
+    "options": [
+      "Perpendicularity Error",
+      "Graduation Error",
+      "Side Error",
+      "Collimation Error"
+    ],
+    "answer": ["A", "C"],
+    "topic": "Navigational Procedures",
+    "explanation": "The correctable errors of a sextant are:\n- Perpendicularity Error\n- Side Error\n- Index Error"
+  },
+  {
+    "id": 5106,
+    "question": "You are the OOW holding a navigational watch. Under which circumstances would you call the Captain?",
+    "type": "mcq",
+    "options": [
+      "Watch handover.",
+      "Significant deterioration of the meteorological conditions.",
+      "When fire rounds are complete.",
+      "When you are concerned that your relieving Officer is unfit for duty."
+    ],
+    "answer": ["B", "D"],
+    "topic": "Navigational Procedures",
+    "explanation": "A significant deterioration of the meteorological conditions or a concern that the relieving Officer is unfit for duty require us to call the Master immediately."
+  }
+]
