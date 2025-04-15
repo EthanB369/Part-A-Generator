@@ -35,12 +35,12 @@
       "SOLAS",
       "International Telecommunication Manual"
     ],
-    "answer": "B",
+    "answer": "D",
     "topic": "Communication"
   },
   {
     "id": 5004,
-    "question": "What does a single green conical buoy indicate in the IALA A system?",
+    "question": "What does a single green conical (cone) buoy indicate in the IALA A system?",
     "type": "mcq",
     "options": [
       "Port side of the channel",
@@ -75,7 +75,8 @@
       "Daily"
     ],
     "answer": "A",
-    "topic": "Communication"
+    "topic": "Communication",
+    "explanation": "According to SOLAS Chapter IV, Regulation 15.9:\n\n“EPIRBs shall be tested at intervals not exceeding one month, using the means provided on the device, to ensure that they are capable of operating properly.”\n\nSource: IMO Resolution A.702(17) and MSC/Circ.1040/Rev.1.\n\nAnnual testing by authorised personnel includes:\n- Inspection of battery expiry\n- Check of hydrostatic release expiry\n- Confirmation of correct registration\n- Performance check and programming verification"
   },
   {
     "id": 5007,
@@ -84,7 +85,7 @@
     "options": [
       "A list to one side due to poor loading",
       "A temporary decrease in trim",
-      "Increase in draft due to forward motion in shallow water",
+      "An apparent increase in draft due to the interaction of the seabed and the vessel in shallow water",
       "A surge in engine RPM"
     ],
     "answer": "C",
@@ -95,7 +96,7 @@
     "question": "Which day shape indicates a vessel restricted in her ability to manoeuvre?",
     "type": "mcq",
     "options": [
-      "Ball-Diamond-Ball",
+      "Ball, diamond, ball in a vertical line",
       "Cone apex upward",
       "Cylinder",
       "Two balls vertically aligned"
@@ -105,15 +106,15 @@
   },
   {
     "id": 5009,
-    "question": "What is the meaning of two prolonged blasts followed by one short blast on a ship's whistle?",
+    "question": "What is the meaning of two prolonged blasts on a ship's whistle?",
     "type": "mcq",
     "options": [
       "Altering course to port",
       "Altering course to starboard",
-      "Operating astern propulsion",
-      "Calling the pilot"
+      "A power-driven vessel underway, stopped making no way through the water",
+      "Vessel engaged in fishing operations"
     ],
-    "answer": "B",
+    "answer": "C",
     "topic": "International Collision Regulations"
   },
   {
@@ -251,10 +252,10 @@
     "question": "Which part of the ship typically houses the emergency generator?",
     "type": "mcq",
     "options": [
-      "Forecastle",
-      "Main engine room",
-      "Accommodation block",
-      "Above the main deck, aft"
+      "Within the machinary space, but a separate watertight compartment to the main engines",
+      "Forward, typically next to the bow thruster",
+      "At least 10 meters forward of the after purpendicular",
+      "Above the uppermost continuous deck and outside the main machinery space."
     ],
     "answer": "D",
     "topic": "Emergency Procedures"
@@ -264,7 +265,7 @@
     "question": "Which light must be exhibited by a power-driven vessel less than 50m in length underway at night?",
     "type": "mcq",
     "options": [
-      "Two masthead lights",
+      "Two masthead lights in a vertical line",
       "One masthead light, sidelights and sternlight",
       "Sternlight only",
       "Sidelights and all-round red light"
@@ -291,9 +292,9 @@
     "type": "mcq",
     "options": [
       "Indicates best anchor position",
-      "Marks safe limits of navigation depth",
-      "Shows AIS targets",
-      "Displays the vessel’s course over ground"
+      "Marks safe limits of navigation for that vessel, calcuated for the current draft",
+      "The depth at which squat may occur",
+      "Indicates the point at which a vessel will run arground if crossed"
     ],
     "answer": "B",
     "topic": "Navigation Equipment"
@@ -331,7 +332,7 @@
     "options": [
       "Starboard 10",
       "Port 10",
-      "10 degrees left",
+      "10 degrees right",
       "Hard starboard"
     ],
     "answer": "A",
@@ -370,23 +371,23 @@
     "options": [
       "Continuous sounding of ship's bell",
       "Raising and lowering arms repeatedly",
-      "Three blasts on the whistle",
-      "Displaying code flag 'B'"
+      "Three prolonged blasts on the ships whistle (Moorse Oscar)",
+      "All of the above"
     ],
-    "answer": "B",
+    "answer": "D",
     "topic": "Emergency Procedures"
   },
   {
     "id": 5030,
-    "question": "Which signal indicates 'I am taking in, or discharging, or carrying dangerous goods'?",
+    "question": "Which flag indicates 'I am taking in, or discharging, or carrying dangerous goods'?",
     "type": "mcq",
     "options": [
       "Flag A",
+      "Flag E",
       "Flag B",
-      "Flag H",
       "Flag K"
     ],
-    "answer": "B",
+    "answer": "C",
     "topic": "Communication"
   },
   {
@@ -396,7 +397,7 @@
     "options": [
       "Vessel at anchor",
       "Vessel aground",
-      "Vessel towing",
+      "Vessel engaged in towing operations",
       "Vessel under sail"
     ],
     "answer": "C",
@@ -410,7 +411,7 @@
       "To regulate pollution control",
       "To enhance the safety of ship operation and prevention of pollution",
       "To set crew training requirements",
-      "To certify ship stability"
+      "To ensure there is a DPA"
     ],
     "answer": "B",
     "topic": "Regulation"
@@ -473,7 +474,7 @@
     "type": "mcq",
     "options": [
       "Marks an anchorage area",
-      "Indicates the side to pass safely",
+      "Indicates the area of safe water",
       "Denotes channel centre",
       "Used to warn of pipelines"
     ],
@@ -529,7 +530,7 @@
       "I require a pilot",
       "Man overboard"
     ],
-    "answer": "C",
+    "answer": "A",
     "topic": "Communication"
   },
   {
@@ -560,7 +561,7 @@
   },
   {
     "id": 5044,
-    "question": "What is the role of the GMDSS?",
+    "question": "What does GMDSS stand for?",
     "type": "mcq",
     "options": [
       "Global Maritime Distress and Safety System",
@@ -579,7 +580,7 @@
       "To correct variation",
       "To correct compass error due to ship's magnetism",
       "To measure magnetic field strength",
-      "To calibrate radar"
+      "To calibrate the radar"
     ],
     "answer": "B",
     "topic": "Navigation Equipment"
@@ -590,8 +591,8 @@
     "type": "mcq",
     "options": [
       "One black ball",
-      "Two black balls",
-      "Three black balls",
+      "Two black balls in a vertical line",
+      "Three black balls in a vertical line",
       "One cone, apex down"
     ],
     "answer": "C",
@@ -605,7 +606,7 @@
       "To monitor the weather",
       "To assist in determining a safe speed and collision avoidance",
       "Only to track the position of own ship",
-      "To confirm compass heading"
+      "All of the above"
     ],
     "answer": "B",
     "topic": "Navigational Procedures"
@@ -638,15 +639,15 @@
   },
   {
     "id": 5050,
-    "question": "Which part of a vessel gives information on load line zones?",
+    "question": "Which documentation gives information on load line zones?",
     "type": "mcq",
     "options": [
       "Logbook",
       "Sailing directions",
-      "Charts",
+      "Routing charts",
       "Load Line Certificate"
     ],
-    "answer": "D",
+    "answer": "C",
     "topic": "Seaworthiness"
   },
   {
@@ -667,10 +668,10 @@
     "question": "What does a vessel display at night when restricted in her ability to manoeuvre?",
     "type": "mcq",
     "options": [
-      "Red over white over red lights",
-      "Two white lights",
-      "Green over red",
-      "Red over green"
+      "Red, white, red in a vertical line",
+      "Two white lights in a vertical line",
+      "Green over red in a vertical line",
+      "Red over green in a vertical line"
     ],
     "answer": "A",
     "topic": "International Collision Regulations"
@@ -680,10 +681,10 @@
     "question": "What is the minimum frequency for checking the ship’s steering gear?",
     "type": "mcq",
     "options": [
-      "Once a voyage",
-      "Every 12 hours",
-      "Weekly",
-      "Before departure"
+      "At least once every watch while the ship is at sea",
+      "With in 12 hours before departure",
+      "Before departure",
+      "All of the above"
     ],
     "answer": "D",
     "topic": "Navigational Procedures"
@@ -724,7 +725,7 @@
       "Three short blasts",
       "Two prolonged and three short blasts"
     ],
-    "answer": "B",
+    "answer": "C",
     "topic": "International Collision Regulations"
   },
   {
@@ -771,12 +772,12 @@
     "question": "What action must be taken on sighting a person overboard?",
     "type": "mcq",
     "options": [
-      "Call engine room",
-      "Turn hard port immediately",
-      "Raise alarm and deploy life-saving appliance",
-      "Log the time and position"
+      "Call the master, raise the alarm, release the life buoy, hard over to the side of the person in the water",
+      "Hard over to the side of the person in the water, call the master, release the life buoy, raise the alarm",
+      "Hard over to the side of the person in the water, raise the alarm, release the life buoy, call the master",
+      "Hard over to the side of the person in the water, release the life buoy, raise the alarm, call the master"
     ],
-    "answer": "C",
+    "answer": "D",
     "topic": "Emergency Procedures"
   },
   {
@@ -825,7 +826,7 @@
     "options": [
       "Lowest daily tide",
       "Highest tidal range",
-      "Small tidal range between high and low water",
+      "The tidal range between high and low water is at its minimum",
       "Tide during equinox"
     ],
     "answer": "C",
@@ -872,7 +873,7 @@
   },
   {
     "id": 5068,
-    "question": "How often should fire drills be conducted on board?",
+    "question": "How often should fire drills be conducted on board a cargo ship?",
     "type": "mcq",
     "options": [
       "Weekly",
@@ -890,7 +891,7 @@
     "options": [
       "Plimsoll line",
       "FP mark",
-      "Anchor mark",
+      "Bowthruster mark",
       "Bow draft scale"
     ],
     "answer": "B",
@@ -915,7 +916,7 @@
     "type": "mcq",
     "options": [
       "Measure wind direction",
-      "Measure pressure changes for weather forecasting",
+      "Measure air pressure",
       "Measure humidity",
       "Record radar ranges"
     ],
@@ -953,10 +954,10 @@
     "question": "How is a vessel not under command identified at night?",
     "type": "mcq",
     "options": [
-      "Red over red lights",
-      "Green over white lights",
-      "White over green lights",
-      "White over red lights"
+      "Two all-round red lights in a vertical line",
+      "Two all-round red and white lights in a vertical line",
+      "Two all-round white and red lights in a vertical line",
+      "Three all-round red, white and red lights in a vertical line"
     ],
     "answer": "A",
     "topic": "International Collision Regulations"
@@ -968,7 +969,7 @@
     "options": [
       "Maintain course and speed",
       "Use echo sounder instead",
-      "Reduce speed and post extra lookouts",
+      "Reduce speed, post extra lookouts, call the master",
       "Change to autopilot"
     ],
     "answer": "C",
@@ -1034,7 +1035,7 @@
       "SART",
       "Echo sounder",
       "Radar",
-      "Bearing fixes on fixed objects"
+      "Bearing and range fixes on fixed objects"
     ],
     "answer": "D",
     "topic": "Navigational Procedures"
@@ -1044,10 +1045,10 @@
     "question": "What is the effective range of an AIS Class A transponder?",
     "type": "mcq",
     "options": [
-      "2 NM",
-      "5 NM",
-      "20 NM",
-      "40 NM"
+      "2-5 NM",
+      "5-10 NM",
+      "20-40 NM",
+      "40-80 NM"
     ],
     "answer": "C",
     "topic": "Navigation Equipment"
@@ -1083,10 +1084,10 @@
     "question": "Which regulation governs shipboard emergency drills?",
     "type": "mcq",
     "options": [
-      "STCW",
-      "SOLAS Chapter III",
-      "MARPOL",
-      "ISM Code"
+      "STCW, Chapter 8, part 3",
+      "SOLAS, Chapter III, Regulation 19",
+      "MARPOL, Apendix II, section 2",
+      "ISM Code, Section 3, part 1"
     ],
     "answer": "B",
     "topic": "Safety"
@@ -1096,10 +1097,10 @@
     "question": "Which of these is a control measure for enclosed space entry?",
     "type": "mcq",
     "options": [
-      "Turn off ventilation",
-      "No need for PPE",
-      "Use a permit-to-work system",
-      "Let crew enter unsupervised"
+      "Turn off ventilation, there are BA bottles outside if there is an issue",
+      "No need for PPE, the crew know how to work safely",
+      "Use a permit-to-work system, enclosed space entry is fairly dangerous",
+      "Let crew enter unsupervised, they know what they are doing"
     ],
     "answer": "C",
     "topic": "Safety"
@@ -1123,11 +1124,11 @@
     "type": "mcq",
     "options": [
       "One long blast",
-      "General emergency alarm and announcement",
-      "Red flashing lights",
-      "Code flag ‘B’ hoisted"
+      "General emergency alarm",
+      "Lifeboats being deployed",
+      "Verbal annoucement from the Master"
     ],
-    "answer": "B",
+    "answer": "D",
     "topic": "Emergency Procedures"
   },
   {
@@ -1149,7 +1150,7 @@
     "type": "mcq",
     "options": [
       "Report immediately and start containment",
-      "Ignore if outside cargo area",
+      "Ignore if outside cargo area, unless it has entered the sea",
       "Wait for master’s approval",
       "Wash with water"
     ],
@@ -1223,11 +1224,11 @@
   },
   {
     "id": 5095,
-    "question": "What is the basic rule for safe anchor watch?",
+    "question": "What is the basic rule to ensure a safe anchor watch?",
     "type": "mcq",
     "options": [
-      "Fix position only once",
-      "No lookout needed at night",
+      "Fix position once a watch",
+      "Vist the bridge frequently",
       "Fix position regularly and maintain lookout",
       "Use GPS only"
     ],
@@ -1266,11 +1267,11 @@
     "type": "mcq",
     "options": [
       "Class A",
-      "Class B",
-      "Class F",
-      "Class C"
+      "Class D",
+      "Class E",
+      "Class F"
     ],
-    "answer": "C",
+    "answer": "D",
     "topic": "Emergency Procedures"
   },
   {
@@ -1329,7 +1330,7 @@
   },
   {
     "id": 5103,
-    "question": "What are the four stages of passage planning?",
+    "question": "What are the stages of passage planning?",
     "type": "mcq",
     "options": [
       "Appraisal",
