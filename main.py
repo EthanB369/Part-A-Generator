@@ -25,7 +25,7 @@ def chat():
     data = request.get_json()
     user_input = data.get('message', '').strip().lower()
 
-    if user_input == "exam":
+    if user_input == "Start" or "start":
         # Filter out used questions
         unused_questions = [q for q in QUESTION_BANK if q["id"] not in ASKED_QUESTION_IDS]
 
@@ -86,16 +86,31 @@ def chat():
                     final_feedback.append(f"{result} Q{i}: {ans['question']}\nYour Answer: {ans['user_input']}\nCorrect: {correct_choices}{explain}")
                 return jsonify({"reply": "\n\n".join(final_feedback)})
 
-    return jsonify({"reply": "❓ Please type 'exam' to begin or answer using A, B, C, or D."})
+    return jsonify({"reply": "❓ Hmm, I don't recognise you're answer. Please type 'Start' to begin an new mock, or answer using A, B, C, or D to answer the question."})
 
-def format_question(question, number):
-    formatted = f"✅ Question {number}:\n{question['question']}\n\n"
-    options = question['options']
-    letters = ['A', 'B', 'C', 'D']
-    for i in range(len(options)):
-        formatted += f"{letters[i]}: {options[i]}\n"
-    formatted += "\nPlease choose either A, B, C, or D."
-    return formatted
+
+def format_question(q, number):
+    # Get correct answer's text
+    correct_letter = q["answer"]
+    correct_option = q["options"][ord(correct_letter.upper()) - 65]
+
+    # Shuffle the options
+    shuffled_options = q["options"].copy()
+    random.shuffle(shuffled_options)
+
+    # Determine the new correct answer letter
+    new_index = shuffled_options.index(correct_option)
+    q["options"] = shuffled_options
+    q["answer"] = chr(65 + new_index)
+
+    # Build option list
+    options_text = ""
+    for i, opt in enumerate(shuffled_options):
+        options_text += f"{chr(65+i)}: {opt}\n"
+
+    return f"✅ Question {number} (ID #{q['id']}):\n{q['question']}\n\n{options_text}\nPlease choose either A, B, C, or D."
+
+
 
 if __name__ == "__main__":
     app.run(debug=True)
