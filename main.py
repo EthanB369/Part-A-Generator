@@ -1,6 +1,7 @@
 from flask import Flask, request, jsonify, render_template
 import json
 import random
+import os
 
 app = Flask(__name__)
 
@@ -108,4 +109,6 @@ def format_question(q, number):
     return f"✅ Question {number} (ID #{q['id']}):\n{q['question']}\n\n{options_text}\nPlease choose either A, B, C, or D."
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    from waitress import serve
+    serve(app, host="0.0.0.0", port=int(os.environ.get("PORT", 10000)))
+
