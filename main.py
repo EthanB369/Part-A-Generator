@@ -25,7 +25,7 @@ def chat():
     data = request.get_json()
     user_input = data.get('message', '').strip().lower()
 
-    if user_input == "Start" or "start":
+    if user_input == "start":
         # Filter out used questions
         unused_questions = [q for q in QUESTION_BANK if q["id"] not in ASKED_QUESTION_IDS]
 
@@ -86,7 +86,7 @@ def chat():
                     final_feedback.append(f"{result} Q{i}: {ans['question']}\nYour Answer: {ans['user_input']}\nCorrect: {correct_choices}{explain}")
                 return jsonify({"reply": "\n\n".join(final_feedback)})
 
-    return jsonify({"reply": "❓ Hmm, I don't recognise you're answer. Please type 'Start' to begin an new mock, or answer using A, B, C, or D to answer the question."})
+    return jsonify({"reply": "❓ Hmm, I don't recognise your answer. Please type 'Start' to begin an new mock, or answer using A, B, C, or D to answer the question."})
 
 
 def format_question(q, number):
