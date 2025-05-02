@@ -1,177 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Part A Mock GPT</title>
-
-  <!-- Inter Font -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap" rel="stylesheet">
-
-  <style>
-    * {
-      box-sizing: border-box;
-    }
-
-    body {
-      margin: 0;
-      background-color: #111;
-      font-family: 'Inter', sans-serif;
-      color: #fff;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      min-height: 100vh;
-      padding: 20px;
-    }
-
-    .chat-container {
-      background-color: #f9f9f9;
-      color: #333;
-      width: 100%;
-      max-width: 768px;
-      height: 90vh;
-      border-radius: 18px;
-      box-shadow: 0 8px 24px rgba(0,0,0,0.2);
-      display: flex;
-      flex-direction: column;
-      padding: 20px;
-    }
-
-    .chat-box {
-      flex: 1;
-      overflow-y: auto;
-      padding-right: 10px;
-      margin-bottom: 15px;
-    }
-
-    .message {
-      padding: 10px 15px;
-      margin: 8px 0;
-      max-width: 90%;
-      border-radius: 14px;
-      line-height: 1.5;
-      word-wrap: break-word;
-    }
-
-    .user {
-      align-self: flex-end;
-      background-color: #ffffff;
-      border: 1px solid #ccc;
-    }
-
-    .bot {
-      align-self: flex-start;
-      background-color: #eeeeee;
-    }
-
-    .input-area {
-      display: flex;
-      gap: 10px;
-    }
-
-    input, textarea, button {
-      font-family: 'Inter', sans-serif;
-    }
-
-    #user-input {
-      flex: 1;
-      padding: 12px;
-      border: none;
-      border-radius: 20px;
-      font-size: 1rem;
-      resize: none;
-      height: auto;
-      overflow-y: auto;
-      line-height: 1.5;
-      max-height: 150px;
-    }
-
-    button {
-      background-color: #000;
-      color: #fff;
-      padding: 12px 20px;
-      border: none;
-      border-radius: 20px;
-      font-weight: bold;
-      cursor: pointer;
-    }
-
-    button:hover {
-      background-color: #333;
-    }
-  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Part A Generator</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}?v=2">
 </head>
 <body>
-  <div class="chat-container">
-    <div class="chat-box" id="chat-box">
-      <div class="message bot">Hi, I'm your Part A Mock Exam Generator! 🧠<br>Type <strong>Start</strong> to begin your mock exam! 🎓</div>
-    </div>
-
-    <div class="input-area">
-      <textarea id="user-input" placeholder="Type your message..." rows="1"></textarea>
-      <button>Send</button>
+  <div id="chat-container">
+    <div id="chat-box"></div>
+    <div id="input-container">
+      <input type="text" id="user-input" placeholder="Type your message..." autocomplete="off" />
+      <button id="send-button">Send</button>
     </div>
   </div>
 
-  <script>
-    const inputField = document.getElementById("user-input");
-    const chatBox = document.getElementById("chat-box");
-    const sendButton = document.querySelector("button");
-
-    // Resize the input field as you type
-    inputField.addEventListener("input", () => {
-      inputField.style.height = "auto";
-      inputField.style.height = inputField.scrollHeight + "px";
-    });
-
-    // Send message when Enter is pressed (Shift+Enter = new line)
-    inputField.addEventListener("keydown", function (event) {
-      if (event.key === "Enter" && !event.shiftKey) {
-        event.preventDefault();
-        sendMessage();
-      }
-    });
-
-    // Also send when clicking the Send button
-    sendButton.addEventListener("click", sendMessage);
-
-    async function sendMessage() {
-      const userInput = inputField.value.trim();
-      if (!userInput) return;
-
-      // Show user message
-      const userMessage = document.createElement("div");
-      userMessage.className = "message user";
-      userMessage.innerText = userInput;
-      chatBox.appendChild(userMessage);
-      inputField.value = "";
-      inputField.style.height = "auto";
-
-      // Scroll to bottom
-      chatBox.scrollTop = chatBox.scrollHeight;
-
-      // Get reply from backend
-      const response = await fetch("/chat", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({ message: userInput }),
-      });
-
-      const data = await response.json();
-
-      // Show bot message
-      const botMessage = document.createElement("div");
-      botMessage.className = "message bot";
-      botMessage.innerText = data.reply;
-      chatBox.appendChild(botMessage);
-
-      chatBox.scrollTop = chatBox.scrollHeight;
-    }
-  </script>
+  <script src="{{ url_for('static', filename='script.js') }}?v=2"></script>
 </body>
 </html>
