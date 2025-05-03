@@ -3,7 +3,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: #1f1f21;
-  font-family: 'Arial', sans-serif;
+  font-family: 'Figtree', sans-serif;
   color: white;
   height: 100vh;
   display: flex;
@@ -75,8 +75,8 @@ body {
 /* Send button */
 #send-button {
   padding: 12px 20px;
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
   border: none;
   font-weight: bold;
   border-radius: 25px;

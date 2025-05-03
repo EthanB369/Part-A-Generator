@@ -22,6 +22,7 @@ document.addEventListener("DOMContentLoaded", function () {
     if (text === "") return;
 
     appendMessage(text, "user");
+    userInput.value = "";
 
     fetch("/chat", {
       method: "POST",
@@ -35,8 +36,9 @@ document.addEventListener("DOMContentLoaded", function () {
       if (data.next) {
         setTimeout(() => {
           appendMessage(data.next, "bot"); // After delay, show next question
-        }, 500); // 500ms or 1s up to you
-      }
+        }, 750); // 500ms or 1s up to you
+      } 
+    
     });
     
   }
