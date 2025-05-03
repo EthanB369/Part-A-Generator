@@ -108,11 +108,16 @@ def format_question(q, number):
     q["options"] = shuffled_options
     q["answer"] = chr(65 + new_index)
 
+    # Format options with HTML line breaks
     options_text = ""
     for i, opt in enumerate(shuffled_options):
-        options_text += f"{chr(65+i)}: {opt}\n"
+        options_text += f"{chr(65+i)}: {opt}<br>"
 
-    return f"✅ Question {number} (ID #{q['id']}):\n{q['question']}\n\n{options_text}\nPlease choose either A, B, C, or D."
+    # Format the whole question with proper line breaks and italics
+    return (f"<b>Question {number}</b> (<i>ID #{q['id']}</i>):<br>"
+            f"{q['question']}<br><br>"
+            f"{options_text}<br>"
+            "Please choose either A, B, C, or D.")
 
 
 if __name__ == "__main__":
