@@ -4,7 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Part A Generator</title>
-  <link rel="stylesheet" href="/static/style.css">  <!-- <== Important fix -->
+
+  <!-- Load CSS once -->
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
   <div id="chat-container">
@@ -15,6 +17,7 @@
     </div>
   </div>
 
-  <script src="/static/script.js"></script>  <!-- <== Important fix -->
+  <!-- Load JS once -->
+  <script src="{{ url_for('static', filename='script.js') }}?v=3"></script> <!-- Force refresh cache -->
 </body>
 </html>
