@@ -45,6 +45,5 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // 👇 Send an initial welcome message automatically
 
-window.addEventListener("load", () => {
   appendMessage("👋 Hi, I’m your Part A Mock Exam Generator! 🎓<br>Type <b>Start</b> to begin your mock exam! 🧠", "bot");
 });
