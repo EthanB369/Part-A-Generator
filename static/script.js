@@ -30,20 +30,24 @@ document.addEventListener("DOMContentLoaded", function () {
     })
     .then(response => response.json())
     .then(data => {
-      setTimeout(() => {
-        appendMessage(data.reply, "bot");
-      }, 1000); // 1 second delay
+      appendMessage(data.reply, "bot"); // First show feedback
+    
+      if (data.next) {
+        setTimeout(() => {
+          appendMessage(data.next, "bot"); // After delay, show next question
+        }, 500); // 500ms or 1s up to you
+      }
     });
-
-    userInput.value = "";
+    
   }
-
   sendButton.addEventListener("click", sendUserMessage);
   userInput.addEventListener("keypress", function (e) {
     if (e.key === "Enter") sendUserMessage();
   });
 
-  // 👇 Send an initial welcome message automatically
+// 👇 Send an initial welcome message automatically
+window.addEventListener("load", () => {
+  appendMessage("👋 Hi, I'm your Part A Mock Exam Generator! 🎓<br>Type <b>Start</b> to begin your mock exam! 🧠", "bot");
+});
 
-  appendMessage("👋 Hi, I’m your Part A Mock Exam Generator! 🎓<br>Type <b>Start</b> to begin your mock exam! 🧠", "bot");
 });
