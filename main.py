@@ -1,7 +1,9 @@
 from flask import Flask, request, jsonify, render_template
 import json
 import random
+
 import os
+from flask import send_from_directory
 
 app = Flask(__name__)
 
@@ -18,6 +20,10 @@ ASKED_QUESTION_IDS = set()
 @app.route('/')
 def index():
     return render_template("index.html")
+
+@app.route('/static/<path:path>')
+def send_static(path):
+    return send_from_directory('static', path)
 
 @app.route('/chat', methods=['POST'])
 def chat():
@@ -74,7 +80,7 @@ def chat():
 
             if CURRENT_QUESTION_INDEX < len(CURRENT_EXAM):
                 next_question = format_question(CURRENT_EXAM[CURRENT_QUESTION_INDEX], CURRENT_QUESTION_INDEX + 1)
-                return jsonify({"reply": f"{feedback}\n\n{next_question}"})
+                return jsonify({"reply": f"{feedback}\n\n\n{next_question}"})
             else:
                 # Exam finished
                 score = sum(1 for ans in USER_ANSWERS if ans["is_correct"])
@@ -107,6 +113,7 @@ def format_question(q, number):
         options_text += f"{chr(65+i)}: {opt}\n"
 
     return f"✅ Question {number} (ID #{q['id']}):\n{q['question']}\n\n{options_text}\nPlease choose either A, B, C, or D."
+
 
 if __name__ == "__main__":
     from waitress import serve
